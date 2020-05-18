@@ -11,5 +11,5 @@ Feature: As a potential client i need send message in citycurator
 
     Examples:
       | Name | Lastname | EmailAddress | Message |
-      | Juan A  | Trejo | comturmza2020@gmail.com | Text automation test |
-      | Eme  | Tur | comturmza2018@gmail.com | Text automation test |
+      | 123  |    456   | 123@456.net  | Text automation test |
+      | Abc  |    Def   | abc@def.net  | Text automation test |
