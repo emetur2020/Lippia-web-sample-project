@@ -171,7 +171,7 @@ public class CentraldePasajesSteps extends PageSteps {
     public void buscar() { Injector._page(CentraldePasajesHomePage.class).buscar();  }
 
     @Then("el mensaje de error informando que no hay servicios en la fecha seleccionada")
-    public void statVerification() { Assert.assertTrue(!Injector._page(CentraldePasajesResultOkPage.class).getStatsok().isEmpty());  }
+    public void statReservaVerification() { Assert.assertTrue(!Injector._page(CentraldePasajesResultOkPage.class).getStatsReservaok().isEmpty());  }
 
     // Steps Scenario 10
 

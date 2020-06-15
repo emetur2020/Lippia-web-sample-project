@@ -1,6 +1,6 @@
 Feature: As a potential client i need send message in citycurator
 
-  @Ignore
+  @Smoke
   Scenario Outline: 01 - The client send a message to citycurator
     Given the client is in contact-us page
     When  the Client enters his Name <Name>

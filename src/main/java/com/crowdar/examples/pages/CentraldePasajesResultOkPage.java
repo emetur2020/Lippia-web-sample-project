@@ -53,7 +53,7 @@ public class CentraldePasajesResultOkPage extends PageBaseCentraldePasajes {
     }
 
     //SCENARIO 09
-    private WebElement statssuccess() {
+    private WebElement statsreservasuccess() {
         return getWebElement(By.xpath("//div[@id='alertDialog']/div"));//Verify Message: No se encontraron servicios en la fecha seleccionada, por favor, intentá nuevamente modificando las fechas o los destinos.
 
     }
@@ -115,8 +115,8 @@ public class CentraldePasajesResultOkPage extends PageBaseCentraldePasajes {
 
     //SCENARIO 09
 
-    public String getStatsok() {
-        return statssuccess().getText();
+    public String getStatsReservaok() {
+        return statsreservasuccess().getText();
     }
 
     //SCENARIO 10

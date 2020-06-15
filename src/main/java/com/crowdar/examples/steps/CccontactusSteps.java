@@ -40,8 +40,8 @@ public class CccontactusSteps extends PageSteps {
 
 
     @Then("the client verifies that the message is sent correctly")
-    public void statVerification() {
-    Assert.assertTrue(!Injector._page(CccontactusResultOkPage.class).getStatsok().isEmpty());
+    public void statMessageVerification() {
+    Assert.assertTrue(!Injector._page(CccontactusResultOkPage.class).getStatsMessageok().isEmpty());
 
     }
 
