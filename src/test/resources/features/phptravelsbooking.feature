@@ -27,6 +27,6 @@ Feature: Un potencial usuario de nacionalidad mexicana necesita reservar habitac
 
     Examples:
       | Destination   |  CheckIn    |  CheckOut  | FirstName   |  LastName   |  EmailRegister    | Country    |   Phone    |  EmailCompra      | CreditCard       |  NameCard      | ExpirationMonth | ExpirationYear | SecurityCode |
-      | Mendoza       |  17-06-2020 | 23-06-2020 |   Qwerty    |   Asdfg     | qwerty@asdfg.net  | Mexico     | 1234567890 | asdfg@qwerty.net  | 4263982640269299 |  Qwerty Asdfg  | 02              | 2023           | 837          |
-      | Buenos Aires  |  24-06-2020 | 30-06-2020 |   Qwerty    |   Asdfg     | qwerty@asdfg.net  | Mexico     | 1234567890 | asdfg@qwerty.net  | 4263982640269299 |  Qwerty Asdfg  | 02              | 2023           | 837          |
+      | Mendoza       |  17-06-2020 | 23-06-2020 |   Qwerty    |   Asdfg     | qwerty@asdfg.net  | Mexico     | 1234567890 | 123@456789.net    | 4263982640269299 |  Qwerty Asdfg  | 02              | 2023           | 837          |
+      | Buenos Aires  |  24-06-2020 | 30-06-2020 |   Qwerty    |   Asdfg     | qwerty@asdfg.net  | Mexico     | 1234567890 | 456789@123.net    | 4263982640269299 |  Qwerty Asdfg  | 02              | 2023           | 837          |
 
